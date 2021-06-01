@@ -65,8 +65,6 @@ public class Main {
 					int patrolTime = 0;
 					int time = minTime[currUniv] + arr[currUniv][i];
 					
-//					System.out.println("univ "+currUniv+" time "+i+" "+timestamp);
-					
 					if(timestamp!=null && timestamp.contains(time)) {
 						patrolTime=1;
 					}
@@ -79,41 +77,8 @@ public class Main {
 			
 		}
 		
-		
+//		Final answer
 		System.out.println(minTime[univ]);
 		
-		
-		
-//		for(int i=0;i< univ+1 ;i++) {
-//			System.out.println(visited[i]+ " "+ minTime[i]);
-//		}
-//		
-//		
-//		for(int i=0;i<univ+1;i++) {
-//			for(int j=0;j<univ+1;j++) {
-//				System.out.print(arr[i][j]+" ");
-//			}
-//			System.out.println("sadfg");
-//		}
-//		
-//		for(int i=0;i<univ+1;i++) {
-//			HashSet<Integer> temp = timestamps[i];
-//			if(temp!=null) {
-//				for(Integer x : temp) {
-//					System.out.print(x+" ");
-//				}
-//			}
-//			System.out.println("asdfg");
-//		}
-		
-//4 4		
-//1 2 3
-//1 3 2
-//2 4 2
-//3 4 3
-//0
-//1 4
-//2 2 3
-//0
 	}
 }
